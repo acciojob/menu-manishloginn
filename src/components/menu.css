@@ -1,0 +1,41 @@
+.button {
+    gap: 10px;
+    button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: red;
+        font-weight: 500;
+        margin-left: 20px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cartt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card-detail {
+    width: 500px;
+}
+
+.underthis {
+    display: flex;
+    justify-content: space-between;
+    p{
+        color: red;
+    }
+    
+}
