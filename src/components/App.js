@@ -124,9 +124,9 @@ function App({ data }) {
 
                 <div className='button'>
                     <button onClick={allData}>All</button>
-                    <button onClick={() => filterData('breakfast')}>Breakfast</button>
-                    <button onClick={() => filterData('lunch')}>Lunch</button>
-                    <button onClick={() => filterData('shakes')}>Shakes</button>
+                    <button onClick={() => filterData('breakfast')} id='filter-btn-1'>Breakfast</button>
+                    <button onClick={() => filterData('lunch')} id='filter-btn-2'>Lunch</button>
+                    <button onClick={() => filterData('shakes')} id='filter-btn-3'>Shakes</button>
                 </div>
             </div>
             <div className='cartt'>
